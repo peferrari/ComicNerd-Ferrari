@@ -61,6 +61,7 @@ main {
 
 #trailers {
     margin: 0%;
+    background-image: linear-gradient(red, orange);
     padding: 5%;
     border: solid 0.5rem black;
     display: flex;
@@ -79,6 +80,7 @@ main {
 
 .img-shop1 {
     width: 25%;
+    transform: scale(1,2);
 }
 
 .img-shop2 {
