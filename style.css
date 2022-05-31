@@ -18,6 +18,9 @@ header img {
     font-family: 'Macondo', cursive;
     display: flex;
     align-items: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 a {
@@ -30,10 +33,13 @@ a {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-header li {
-    margin: 3%;
+.header.nav {
+    width: 100%;
+    position: relative;
 }
 
 main {
