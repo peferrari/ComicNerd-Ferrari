@@ -25,53 +25,60 @@
     <!-- Inicio Header -->
     <header>
         <nav class="navbar navbar-expand-lg bg-primary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-              <img src="Multimedia/Images/logo.jpg" alt="" width="80" height="120">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#news">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#trailers">Trailers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#shop">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#comunidad">Comunidad</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#contacto">Contacto</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">SuperBusqueda</button>
-              </form>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Multimedia/Images/logo.jpg" alt="" width="80" height="120">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#news">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#trailers">Trailers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#comunidad">Comunidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">SuperBusqueda</button>
+                    </form>
+                </div>
             </div>
-          </div>
         </nav>
-    
-      </header>
+
+    </header>
     <!-- Fin Header -->
 
     <main>
 
         <!-- Inicio Flash News (Section) -->
-        <section id="news">
+
+        <div id="news" class="news-title">
+            <h1>ComicNerd News</h1>
+        </div>
+
+        <div class="news-links">
             <nav>
                 <a href="news.html"><img class="img-news img-news1" src="Multimedia/Images/news1.jpeg" alt=""></a>
                 <a href="news.html"><img class="img-news img-news2" src="Multimedia/Images/news2.jpg" alt=""></a>
                 <a href="news.html"><img class="img-news img-news3" src="Multimedia/Images/news3.jpg" alt=""></a>
             </nav>
-        </section>
+        </div>
+
         <!-- Fin Flash News (Section) -->
 
         <!-- Inicio Lo Último - Trailers (Section)-->
@@ -104,10 +111,37 @@
 
         <!-- Inicio Comunidad (Section) -->
         <section id="comunidad">
-            <div>
-                <video src="Multimedia/Videos/Comunidad.mp4" controls></video>
-                <!-- Carrete imágenes Comunidad -->
-                <img src="" alt="">
+            <div id="carouselExampleIndicators" class="carousel slide col-6" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Multimedia/Images/fotocarousel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Multimedia/Images/fotocarousel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Multimedia/Images/fotocarousel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
         </section>
         <!-- Fin Comunidad -->
