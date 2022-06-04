@@ -1,5 +1,9 @@
-$color-principal: aquamarine;
-$color-fuente-uno: chocolate;
+$color-principal: #37E2D5;
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
 // Operaciones (se utilizan ecuaciones -suma, resta, multiplicacion y division- para aumentar o disminuir la medida principal elegida)
@@ -19,7 +23,7 @@ body {
 
 
     .nav-item:hover {
-        background-color: aliceblue;
+        background-color: $color-button-uno;
         border-radius: 10%;
 
         a {
@@ -37,6 +41,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'macondo';
+    color: $color-fuente-dos;
 }
 
 .news-links {
@@ -66,3 +71,39 @@ body {
 }
 
 /* Section News - Estilos*/
+
+/* Section Trailers - Estilos*/
+
+.trailers-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-terciario;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+/* Section Trailers - Estilos*/
+
+/* Footer - Estilos*/
+footer {
+    background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Footer - Estilos*/
