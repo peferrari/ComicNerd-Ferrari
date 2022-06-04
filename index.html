@@ -23,21 +23,43 @@
 <body>
 
     <!-- Inicio Header -->
-    <header class="header-index">
-        <div>
-            <a href="index.html"><img src="./Multimedia/Images/logo.jpg" alt="Logo ComicNerd"></a>
-        </div>
-
-        <nav class="header-nav">
-            <ul class="lista-header">
-                <li><a href="#news">Noticias</a></li>
-                <li><a href="#trailers">Trailers</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#comunidad">Comunidad</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="Multimedia/Images/logo.jpg" alt="" width="80" height="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#news">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#trailers">Trailers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#shop">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#comunidad">Comunidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">SuperBusqueda</button>
+              </form>
+            </div>
+          </div>
         </nav>
-    </header>
+    
+      </header>
     <!-- Fin Header -->
 
     <main>

@@ -9,3 +9,20 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.navbar {
+    border-radius: 20px;
+    font-family: 'macondo';
+    font-size: ($medida-fuente * 4);
+    
+
+    .nav-item:hover {
+        background-color: aliceblue;
+        border-radius: 10%;
+
+        a {
+            font-family: 'macondo';
+            color: $color-fuente-uno;
+        }
+    }
+}
