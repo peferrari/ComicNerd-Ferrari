@@ -1,0 +1,11 @@
+$color-principal: aquamarine;
+$color-fuente-uno: chocolate;
+$medida-fuente: 10px;
+
+// Operaciones (se utilizan ecuaciones -suma, resta, multiplicacion y division- para aumentar o disminuir la medida principal elegida)
+
+body {
+    background-color: $color-principal;
+    background-attachment: fixed;
+    background-size: cover;
+}
