@@ -82,7 +82,10 @@ body {
 /* Section Shop - Estilos*/
 /* Footer - Estilos*/
 footer {
-  background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5); }
+  background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   footer .footer-title {
     display: flex;
     justify-content: center;
@@ -93,9 +96,16 @@ footer {
     display: flex;
     text-align: center;
     justify-content: space-evenly; }
+    footer .footer-links a {
+      color: #151D3B;
+      font-size: 20px; }
   footer .footer-icons {
     display: flex;
-    justify-content: center; }
+    justify-content: space-evenly; }
+    footer .footer-icons a {
+      color: #ED1D24; }
+      footer .footer-icons a i {
+        font-size: 60px; }
   footer .footer-company-name {
     display: flex;
     justify-content: center;

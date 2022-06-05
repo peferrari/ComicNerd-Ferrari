@@ -132,6 +132,9 @@ body {
 /* Footer - Estilos*/
 footer {
     background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .footer-title {
         display: flex;
@@ -145,11 +148,22 @@ footer {
         display: flex;
         text-align: center;
         justify-content: space-evenly;
+        a {
+            color: $color-terciario;
+            font-size: $medida-fuente *2;
+        }
     }
 
     .footer-icons {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        
+        a {
+            color: $color-fuente-tres;
+            i {
+                font-size: $medida-fuente *6;
+            }
+        }
     }
 
     .footer-company-name {
