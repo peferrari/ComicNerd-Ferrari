@@ -63,10 +63,38 @@ body {
     border: none; }
 
 /* Section Trailers - Estilos*/
+/* Section Shop - Estilos*/
+#shop {
+  margin: auto;
+  padding: 10%;
+  border: solid 0.5rem black;
+  text-align: center;
+  background-image: url("multimedia/Images/fondo-shop.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+  #shop .img-shop1 {
+    width: 25%; }
+  #shop .img-shop2 {
+    width: 25%; }
+  #shop .img-shop3 {
+    width: 25%; }
+
+/* Section Shop - Estilos*/
 /* Footer - Estilos*/
 footer {
   background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
   display: flex;
   justify-content: space-evenly; }
+  footer #contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem; }
+    footer #contacto .img-redes1 {
+      width: 20%; }
+    footer #contacto .img-redes2 {
+      width: 20%; }
+    footer #contacto .img-redes3 {
+      width: 20%; }
 
 /* Footer - Estilos*/
