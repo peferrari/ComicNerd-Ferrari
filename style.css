@@ -87,6 +87,20 @@ footer {
   justify-content: space-evenly; }
   footer h3 {
     font-family: 'macondo';
-    color: #C70A80; }
+    color: #ED1D24; }
 
 /* Footer - Estilos*/
+/* trailers.html - Estilos*/
+.titulo-trailers-uno {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #ED1D24; }
+
+.titulo-trailers-dos {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #0476f2; }
+
+/* trailers.html - Estilos*/

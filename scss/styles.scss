@@ -4,7 +4,7 @@ $color-terciario: #151D3B;
 $color-fuente-uno: #FBCB0A;
 $color-fuente-dos: #C70A80;
 $color-fuente-tres: #ED1D24;
-$colof-fuente-cuatro: #0476f2;
+$color-fuente-cuatro: #0476f2;
 $color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
@@ -83,16 +83,11 @@ body {
     color: $color-terciario;
 }
 
-.titulo-trailers-uno {
-    font-family: 'macondo';
-    h2 {
-    color: $color-fuente-tres;
-    }
-}
-.titulo-trailers-dos {
-    font-family: 'macondo';
-    color: $color-fuente-cuatro;
-}
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
     .responsive-iframe {
         position: absolute;
         top: 0;
@@ -103,7 +98,7 @@ body {
         height: 100%;
         border: none;
     }
-
+}
 
 /* Section Trailers - Estilos*/
 
@@ -140,8 +135,23 @@ footer {
 
     h3 {
         font-family: 'macondo';
-        color: $color-fuente-cuatro;
+        color: $color-fuente-tres;
     }
 }
 
 /* Footer - Estilos*/
+
+/* trailers.html - Estilos*/
+.titulo-trailers-uno {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color:  $color-fuente-tres; }
+  
+  .titulo-trailers-dos {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-cuatro }
+  
+  /* trailers.html - Estilos*/
