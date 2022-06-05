@@ -98,3 +98,17 @@ footer {
       width: 20%; }
 
 /* Footer - Estilos*/
+/* trailers.html - Estilos*/
+.titulo-trailers-uno {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #EC1D24; }
+
+.titulo-trailers-dos {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #0476f2; }
+
+/* trailers.html - Estilos*/

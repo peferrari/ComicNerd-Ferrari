@@ -3,6 +3,8 @@ $color-secundario: #590696;
 $color-terciario: #151D3B;
 $color-fuente-uno: #FBCB0A;
 $color-fuente-dos: #C70A80;
+$color-fuente-tres: #EC1D24;
+$color-fuente-cuatro: #0476f2;
 $color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
@@ -148,3 +150,21 @@ footer {
     }
 }
 /* Footer - Estilos*/
+
+/* trailers.html - Estilos*/
+
+.titulo-trailers-uno {
+display: flex;
+justify-content: center;
+font-family: 'macondo';
+color: $color-fuente-tres;
+   }
+
+.titulo-trailers-dos {
+display: flex;
+justify-content: center;
+font-family: 'macondo';
+color: $color-fuente-cuatro;
+    }
+
+/* trailers.html - Estilos*/
