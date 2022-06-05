@@ -3,6 +3,8 @@ $color-secundario: #590696;
 $color-terciario: #151D3B;
 $color-fuente-uno: #FBCB0A;
 $color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$colof-fuente-cuatro: #0476f2;
 $color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
@@ -81,23 +83,28 @@ body {
     color: $color-terciario;
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
+.titulo-trailers-uno {
+    font-family: 'macondo';
+    h2 {
+    color: $color-fuente-tres;
+    }
 }
+.titulo-trailers-dos {
+    font-family: 'macondo';
+    color: $color-fuente-cuatro;
+}
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
 /* Section Trailers - Estilos*/
 
 /* Section Shop - Estilos*/
@@ -109,18 +116,20 @@ body {
     background-image: url("multimedia/Images/fondo-shop.jpg");
     background-size: cover;
     background-attachment: fixed;
+
     .img-shop1 {
         width: 25%;
     }
-    
+
     .img-shop2 {
         width: 25%;
     }
-    
+
     .img-shop3 {
         width: 25%;
     }
 }
+
 /* Section Shop - Estilos*/
 
 /* Footer - Estilos*/
@@ -128,9 +137,11 @@ footer {
     background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
     display: flex;
     justify-content: space-evenly;
-    h3{
+
+    h3 {
         font-family: 'macondo';
-        color: $color-fuente-dos;
+        color: $color-fuente-cuatro;
     }
 }
+
 /* Footer - Estilos*/
