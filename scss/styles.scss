@@ -87,7 +87,9 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%;
+
+    /* 16:9 Aspect Ratio */
     .responsive-iframe {
         position: absolute;
         top: 0;
@@ -130,12 +132,31 @@ body {
 /* Footer - Estilos*/
 footer {
     background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
-    display: flex;
-    justify-content: space-evenly;
 
-    h3 {
+    .footer-title {
+        display: flex;
+        justify-content: center;
         font-family: 'macondo';
         color: $color-fuente-tres;
+    }
+
+    .footer-links {
+        margin: 0%;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-company-name {
+        display: flex;
+        justify-content: center;
+        font-family: 'calibri';
+        color: $color-terciario;
     }
 }
 
@@ -146,12 +167,14 @@ footer {
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color:  $color-fuente-tres; }
-  
-  .titulo-trailers-dos {
+    color: $color-fuente-tres;
+}
+
+.titulo-trailers-dos {
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color: $color-fuente-cuatro }
-  
-  /* trailers.html - Estilos*/
+    color: $color-fuente-cuatro
+}
+
+/* trailers.html - Estilos*/
