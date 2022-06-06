@@ -107,12 +107,18 @@ body {
 /* Section Shop - Estilos*/
 #shop {
     margin: auto;
-    padding: 10%;
+    padding: 2%;
     border: solid 0.5rem black;
     text-align: center;
     background-image: url("multimedia/Images/fondo-shop.jpg");
     background-size: cover;
     background-attachment: fixed;
+    .shop-title {
+        display: flex;
+        justify-content: center;
+        font-family: 'macondo';
+        color: $color-fuente-tres;
+    }
 
     .img-shop1 {
         width: 25%;
@@ -128,6 +134,23 @@ body {
 }
 
 /* Section Shop - Estilos*/
+
+/* Section Comunidad + ubicacion - Estilos*/
+.comunidad-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-dos;
+}
+
+.ubicacion-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-dos;
+}
+
+/* Section Comunidad + ubicacion - Estilos*/
 
 /* Footer - Estilos*/
 footer {
