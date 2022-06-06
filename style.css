@@ -65,6 +65,9 @@ body {
     justify-content: center;
     font-family: 'macondo';
     color: #ED1D24; }
+  #shop .card {
+    display: flex;
+    align-items: center; }
   #shop .img-shop1 {
     width: 50%; }
   #shop .img-shop2 {

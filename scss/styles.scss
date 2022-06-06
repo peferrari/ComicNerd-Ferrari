@@ -105,9 +105,11 @@ body {
         font-family: 'macondo';
         color: $color-fuente-tres;
     }
-    // .card {
-        
-    // }
+    .card {
+        display: flex;
+        align-items: center;
+    }
+    
     .img-shop1 {
         width: 50%;
     }
