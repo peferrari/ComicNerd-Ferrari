@@ -18,6 +18,11 @@ $medida-fuente: 10px;
     }
 }
 
+a:visited {
+    color: $color-fuente-tres;
+    font-weight: bold
+  }
+
 body {
     background-color: $color-principal;
     background-attachment: fixed;

@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: row; } }
 
+a:visited {
+  color: #ED1D24;
+  font-weight: bold; }
+
 body {
   background-color: #37E2D5;
   background-attachment: fixed;
