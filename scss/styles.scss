@@ -8,7 +8,15 @@ $color-fuente-cuatro: #0476f2;
 $color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
-// Operaciones (se utilizan ecuaciones -suma, resta, multiplicacion y division- para aumentar o disminuir la medida principal elegida)
+@media (min-width: 500px){
+    .news-links,
+    .trailers-section,
+    .shop-section,
+    .comunidad-ubicacion{
+       display: flex;
+       flex-direction: row;
+    }
+}
 
 body {
     background-color: $color-principal;

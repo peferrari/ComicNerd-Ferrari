@@ -1,3 +1,11 @@
+@media (min-width: 500px) {
+  .news-links,
+  .trailers-section,
+  .shop-section,
+  .comunidad-ubicacion {
+    display: flex;
+    flex-direction: row; } }
+
 body {
   background-color: #37E2D5;
   background-attachment: fixed;
