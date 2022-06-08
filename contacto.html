@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/84f5702394.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrat -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contacto - ComicNerd</title>
+</head>
+
+<body>
+
+    <!-- Inicio Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" src="Multimedia/Images/logo.jpg" alt="Logo ComicNerd" width="80"
+                        height="120">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="news.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="trailers.html">Trailers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#comunidad">Comunidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">SuperBusqueda</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Fin Header -->
+
+    <div class="comunidad-ubicacion row align-items-center">
+
+    
+    <div id="comunidad" class="comunidad-title col-6">
+        <h3>¿Querés formar parte de la Iniciativa ComicNerd?</h3>
+    </div>
+
+    <div id="ubicacion" class="ubicacion-title col-6">
+        <h3>¿Dónde estamos?</h3>
+    </div>
+
+    <form class="row g-3 needs-validation col-6" novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Tony" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Stark" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Usuario</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Elegí tu súper usuario.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Provincia</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Elegí</option>
+                <option>Buenos Aires</option>
+                <option>Ciudad Autónoma de Buenos Aires</option>
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid state.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Código Postal</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Aceptá nuestros términos de servicio.
+                </label>
+                <div class="invalid-feedback">
+                    Si no aceptás, no hay trato.
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Súper suscribite</button>
+        </div>
+    </form>
+
+     <!-- Ubicación -->
+     <div class="embed-responsive embed-responsive-4by3 col-6">
+        <iframe class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1231458710226!2d-58.49092188519632!3d-34.575750463525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c560e5a7b%3A0x5a87273802f994bc!2sComic%20Center!5e0!3m2!1ses-419!2sar!4v1654558152983!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Fin Ubicación -->
+</div>
+
+    <!-- Inicio Footer-->
+    <footer id="contacto">
+        <!-- Redes Sociales -->
+        <div class="footer-title">
+            <h3>Comic<span>Nerd</span></h3>
+        </div>
+
+        <div class="hidden-xs">
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                ·
+                <a href="news.html">Noticias</a>
+                ·
+                <a href="trailers.html">Trailers</a>
+                ·
+                <a href="#shop">Shop</a>
+                ·
+                <a href="#Comunidad">Comunidad</a>
+        </div>
+
+        </div>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/ComicNerdArgentina/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/comicnerd_argentina/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=541158417669"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/pablo-ezequiel-ferrari-45854845/"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <p class="footer-company-name">ComicNerd Argentina © 2022</p>
+        <!-- Fin Redes Sociales -->
+
+    </footer>
+
+    <!-- Fin Nosotros -->
+    <!-- Fin Footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
