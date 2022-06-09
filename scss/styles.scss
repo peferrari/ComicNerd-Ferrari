@@ -153,6 +153,23 @@ body {
     color: $color-fuente-dos;
 }
 
+.section-comunidad {
+    align-items: center;
+    .accordion-body {
+        display: flex;
+        align-items: center;
+    }
+    .comunidad-uno{
+        width: 30%;
+    }
+    .comunidad-dos{
+        width: 30%;
+    }
+    .comunidad-tres{
+        width: 30%;
+    }
+}
+
 /* Section Comunidad + ubicacion - Estilos*/
 
 /* Footer - Estilos*/

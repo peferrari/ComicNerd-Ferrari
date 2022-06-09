@@ -101,6 +101,18 @@ body {
   font-family: 'macondo';
   color: #C70A80; }
 
+.section-comunidad {
+  align-items: center; }
+  .section-comunidad .accordion-body {
+    display: flex;
+    align-items: center; }
+  .section-comunidad .comunidad-uno {
+    width: 30%; }
+  .section-comunidad .comunidad-dos {
+    width: 30%; }
+  .section-comunidad .comunidad-tres {
+    width: 30%; }
+
 /* Section Comunidad + ubicacion - Estilos*/
 /* Footer - Estilos*/
 footer {
