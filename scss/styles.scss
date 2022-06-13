@@ -1,5 +1,15 @@
 @import 'components/header';
 @import 'components/footer';
+@import 'base/listas';
+
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$color-fuente-cuatro: #0476f2;
+$color-button-uno: #F1DDBF;
+$medida-fuente: 10px;
 
 @media (min-width: 500px){
     .news-links,
@@ -12,12 +22,12 @@
 }
 
 a:visited {
-    color: $color-fuente-tres;
+    color: nth($colores, 6);
     font-weight: bold
   }
 
 body {
-    background-color: $color-principal;
+    background-color: nth($colores, 1);
     background-attachment: fixed;
     background-size: cover;
 }
