@@ -10,7 +10,7 @@
       color: #FBCB0A; }
 
 footer {
-  background-image: linear-gradient(#40E0D0, #36D1DC, #5B86E5);
+  background-image: linear-gradient(180deg, #f59622 0, #f59623 8.33%, #f59624 16.67%, #e8a52b 25%, #ec9924 33.33%, #f08b20 41.67%, #f37b1f 50%, #f56a21 58.33%, #f75827 66.67%, #f9442f 75%, #fa2a38 83.33%, #fa0043 91.67%, #f9004e 100%);
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -31,7 +31,7 @@ footer {
     display: flex;
     justify-content: space-evenly; }
     footer .footer-icons a {
-      color: #ED1D24; }
+      color: #0476f2; }
       footer .footer-icons a i {
         font-size: 40px; }
   footer .footer-company-name {
@@ -118,7 +118,7 @@ footer {
   display: flex;
   justify-content: center;
   font-family: 'macondo';
-  color: #C70A80; }
+  color: #ED1D24; }
 
 .section-comunidad {
   align-items: center; }
@@ -145,6 +145,6 @@ a:visited {
   font-weight: bold; }
 
 body {
-  background-color: #37E2D5;
+  background-color: #f59622;
   background-attachment: fixed;
   background-size: cover; }

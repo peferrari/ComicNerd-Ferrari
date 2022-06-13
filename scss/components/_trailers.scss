@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 $color-secundario: #590696;
 $color-terciario: #151D3B;
 $color-fuente-uno: #FBCB0A;
@@ -11,7 +13,7 @@ $medida-fuente: 10px;
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color: $color-terciario;
+    color: nth($colores, 3);
 }
 
 .trailers-video {
@@ -24,14 +26,14 @@ $medida-fuente: 10px;
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color: $color-fuente-tres;
+    color: nth($colores, 6);
 }
 
 .titulo-trailers-dos {
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color: $color-fuente-cuatro
+    color: nth($colores, 7)
 }
 
 /* trailers.html - Estilos*/

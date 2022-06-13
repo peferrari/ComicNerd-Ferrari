@@ -1,17 +1,12 @@
-$color-secundario: #590696;
-$color-terciario: #151D3B;
-$color-fuente-uno: #FBCB0A;
-$color-fuente-dos: #C70A80;
-$color-fuente-tres: #ED1D24;
-$color-fuente-cuatro: #0476f2;
-$color-button-uno: #F1DDBF;
+@import '../base/listas';
+
 $medida-fuente: 10px;
 
 .news-title {
     display: flex;
     justify-content: center;
     font-family: 'macondo';
-    color: $color-fuente-dos;
+    color: nth($colores, 5);
 }
 
 .news-links {

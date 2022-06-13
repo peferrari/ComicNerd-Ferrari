@@ -1,13 +1,5 @@
+@import '../base/listas';
 
-
-$color-principal: #37E2D5;
-$color-secundario: #590696;
-$color-terciario: #151D3B;
-$color-fuente-uno: #FBCB0A;
-$color-fuente-dos: #C70A80;
-$color-fuente-tres: #ED1D24;
-$color-fuente-cuatro: #0476f2;
-$color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
 .navbar {
@@ -17,12 +9,12 @@ $medida-fuente: 10px;
 
 
     .nav-item:hover {
-        background-color: $color-button-uno;
+        background-color: nth($colores, 8);
         border-radius: 10%;
 
         a {
             font-family: 'macondo';
-            color: $color-fuente-uno;
+            color: nth($colores, 4);
         }
     }
 }
