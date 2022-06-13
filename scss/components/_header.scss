@@ -1,0 +1,26 @@
+$color-principal: #37E2D5;
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$color-fuente-cuatro: #0476f2;
+$color-button-uno: #F1DDBF;
+$medida-fuente: 10px;
+
+.navbar {
+    border-radius: 20px;
+    font-family: 'macondo';
+    font-size: ($medida-fuente * 3);
+
+
+    .nav-item:hover {
+        background-color: $color-button-uno;
+        border-radius: 10%;
+
+        a {
+            font-family: 'macondo';
+            color: $color-fuente-uno;
+        }
+    }
+}
