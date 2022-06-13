@@ -1,0 +1,40 @@
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$color-fuente-cuatro: #0476f2;
+$color-button-uno: #F1DDBF;
+$medida-fuente: 10px;
+
+#shop {
+    margin: auto;
+    padding: 2%;
+    border: solid 0.5rem black;
+    text-align: center;
+    background-image: url("multimedia/Images/fondo-shop.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    .shop-title {
+        display: flex;
+        justify-content: center;
+        font-family: 'macondo';
+        color: $color-fuente-tres;
+    }
+    .card {
+        display: flex;
+        align-items: center;
+    }
+    
+    .img-shop1 {
+        width: 50%;
+    }
+
+    .img-shop2 {
+        width: 50%;
+    }
+
+    .img-shop3 {
+        width: 50%;
+    }
+}

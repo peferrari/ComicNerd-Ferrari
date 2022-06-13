@@ -1,0 +1,39 @@
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$color-fuente-cuatro: #0476f2;
+$color-button-uno: #F1DDBF;
+$medida-fuente: 10px;
+
+.comunidad-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-dos;
+}
+
+.ubicacion-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-dos;
+}
+
+.section-comunidad {
+    align-items: center;
+    .accordion-body {
+        display: flex;
+        align-items: center;
+    }
+    .comunidad-uno{
+        width: 30%;
+    }
+    .comunidad-dos{
+        width: 30%;
+    }
+    .comunidad-tres{
+        width: 30%;
+    }
+}

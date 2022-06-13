@@ -1,0 +1,37 @@
+$color-secundario: #590696;
+$color-terciario: #151D3B;
+$color-fuente-uno: #FBCB0A;
+$color-fuente-dos: #C70A80;
+$color-fuente-tres: #ED1D24;
+$color-fuente-cuatro: #0476f2;
+$color-button-uno: #F1DDBF;
+$medida-fuente: 10px;
+
+.trailers-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-terciario;
+}
+
+.trailers-video {
+    display: flex;
+    justify-content: center;
+}
+
+/* trailers.html - Estilos*/
+.titulo-trailers-uno {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-tres;
+}
+
+.titulo-trailers-dos {
+    display: flex;
+    justify-content: center;
+    font-family: 'macondo';
+    color: $color-fuente-cuatro
+}
+
+/* trailers.html - Estilos*/

@@ -40,24 +40,6 @@ footer {
     font-family: 'calibri';
     color: #151D3B; }
 
-@media (min-width: 500px) {
-  .news-links,
-  .trailers-section,
-  .shop-section,
-  .comunidad-ubicacion {
-    display: flex;
-    flex-direction: row; } }
-
-a:visited {
-  color: #ED1D24;
-  font-weight: bold; }
-
-body {
-  background-color: #37E2D5;
-  background-attachment: fixed;
-  background-size: cover; }
-
-/* Section News - Estilos*/
 .news-title {
   display: flex;
   justify-content: center;
@@ -79,8 +61,6 @@ body {
     transform: scale(1.3);
     transition: all 1.5s; }
 
-/* Section News - Estilos*/
-/* Section Trailers - Estilos*/
 .trailers-title {
   display: flex;
   justify-content: center;
@@ -91,8 +71,20 @@ body {
   display: flex;
   justify-content: center; }
 
-/* Section Trailers - Estilos*/
-/* Section Shop - Estilos*/
+/* trailers.html - Estilos*/
+.titulo-trailers-uno {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #ED1D24; }
+
+.titulo-trailers-dos {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo';
+  color: #0476f2; }
+
+/* trailers.html - Estilos*/
 #shop {
   margin: auto;
   padding: 2%;
@@ -116,8 +108,6 @@ body {
   #shop .img-shop3 {
     width: 50%; }
 
-/* Section Shop - Estilos*/
-/* Section Comunidad + ubicacion - Estilos*/
 .comunidad-title {
   display: flex;
   justify-content: center;
@@ -142,18 +132,19 @@ body {
   .section-comunidad .comunidad-tres {
     width: 30%; }
 
-/* Section Comunidad + ubicacion - Estilos*/
-/* trailers.html - Estilos*/
-.titulo-trailers-uno {
-  display: flex;
-  justify-content: center;
-  font-family: 'macondo';
-  color: #ED1D24; }
+@media (min-width: 500px) {
+  .news-links,
+  .trailers-section,
+  .shop-section,
+  .comunidad-ubicacion {
+    display: flex;
+    flex-direction: row; } }
 
-.titulo-trailers-dos {
-  display: flex;
-  justify-content: center;
-  font-family: 'macondo';
-  color: #0476f2; }
+a:visited {
+  color: #ED1D24;
+  font-weight: bold; }
 
-/* trailers.html - Estilos*/
+body {
+  background-color: #37E2D5;
+  background-attachment: fixed;
+  background-size: cover; }
