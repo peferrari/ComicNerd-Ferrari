@@ -1,5 +1,6 @@
 @import '../base/listas';
 @import '../base/extends';
+@import '../base/mixins';
 
 $medida-fuente: 10px;
 
@@ -20,12 +21,12 @@ $medida-fuente: 10px;
         align-items: center;
     }
     .comunidad-uno{
-        width: 30%;
+        @include fotos(30%);
     }
     .comunidad-dos{
-        width: 30%;
+        @include fotos(30%);
     }
     .comunidad-tres{
-        width: 30%;
+        @include fotos(30%);
     }
 }

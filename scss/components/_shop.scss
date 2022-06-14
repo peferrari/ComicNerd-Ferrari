@@ -1,4 +1,6 @@
 @import '../base/listas';
+@import '../base/extends';
+@import '../base/mixins';
 
 $medida-fuente: 10px;
 
@@ -11,9 +13,7 @@ $medida-fuente: 10px;
     background-size: cover;
     background-attachment: fixed;
     .shop-title {
-        display: flex;
-        justify-content: center;
-        font-family: 'macondo';
+        @extend %titulos;
         color: nth($colores, 6);
     }
     .card {
@@ -22,14 +22,14 @@ $medida-fuente: 10px;
     }
     
     .img-shop1 {
-        width: 50%;
+        @include fotos(50%);
     }
 
     .img-shop2 {
-        width: 50%;
+        @include fotos(50%);
     }
 
     .img-shop3 {
-        width: 50%;
+        @include fotos(50%);
     }
 }

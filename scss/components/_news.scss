@@ -1,5 +1,6 @@
 @import '../base/listas';
 @import '../base/extends';
+@import '../base/mixins';
 
 $medida-fuente: 10px;
 
@@ -15,15 +16,15 @@ $medida-fuente: 10px;
     justify-content: space-between;
 
     .img-news1 {
-        width: 30%;
+        @include fotos(30%);
     }
 
     .img-news2 {
-        width: 30%;
+        @include fotos(30%);
     }
 
     .img-news3 {
-        width: 30%;
+        @include fotos(30%);
     }
 
     .img-news:hover {

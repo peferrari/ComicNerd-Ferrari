@@ -9,7 +9,7 @@
       font-family: 'macondo';
       color: #FBCB0A; }
 
-footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
   font-family: 'macondo'; }
@@ -42,7 +42,7 @@ footer {
     font-family: 'calibri';
     color: #151D3B; }
 
-footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
   font-family: 'macondo'; }
@@ -65,7 +65,7 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
     transform: scale(1.3);
     transition: all 1.5s; }
 
-footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
   font-family: 'macondo'; }
@@ -85,6 +85,11 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
   color: #0476f2; }
 
 /* trailers.html - Estilos*/
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo'; }
+
 #shop {
   margin: auto;
   padding: 2%;
@@ -94,9 +99,6 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
   background-size: cover;
   background-attachment: fixed; }
   #shop .shop-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'macondo';
     color: #ED1D24; }
   #shop .card {
     display: flex;
@@ -108,7 +110,7 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
   #shop .img-shop3 {
     width: 50%; }
 
-footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
   font-family: 'macondo'; }
@@ -140,7 +142,7 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
-footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
   font-family: 'macondo'; }
