@@ -1,4 +1,5 @@
 @import '../base/listas';
+@import '../base/extends';
 
 $medida-fuente: 10px;
 
@@ -9,9 +10,7 @@ footer {
     justify-content: center;
 
     .footer-title {
-        display: flex;
-        justify-content: center;
-        font-family: 'macondo';
+        @extend %titulos;
         color: nth($colores, 6);
     }
 

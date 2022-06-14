@@ -1,18 +1,15 @@
 @import '../base/listas';
+@import '../base/extends';
 
 $medida-fuente: 10px;
 
 .comunidad-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'macondo';
+    @extend %titulos;
     color: nth($colores, 5);
 }
 
 .ubicacion-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'macondo';
+    @extend %titulos;
     color: nth($colores, 6);
 }
 

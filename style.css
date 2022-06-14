@@ -9,15 +9,17 @@
       font-family: 'macondo';
       color: #FBCB0A; }
 
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo'; }
+
 footer {
   background-image: linear-gradient(180deg, #f59622 0, #f59623 8.33%, #f59624 16.67%, #e8a52b 25%, #ec9924 33.33%, #f08b20 41.67%, #f37b1f 50%, #f56a21 58.33%, #f75827 66.67%, #f9442f 75%, #fa2a38 83.33%, #fa0043 91.67%, #f9004e 100%);
   display: flex;
   flex-direction: column;
   justify-content: center; }
   footer .footer-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'macondo';
     color: #ED1D24; }
   footer .footer-links {
     margin: 0%;
@@ -40,10 +42,12 @@ footer {
     font-family: 'calibri';
     color: #151D3B; }
 
-.news-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
-  font-family: 'macondo';
+  font-family: 'macondo'; }
+
+.news-title {
   color: #C70A80; }
 
 .news-links {
@@ -61,10 +65,12 @@ footer {
     transform: scale(1.3);
     transition: all 1.5s; }
 
-.trailers-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
-  font-family: 'macondo';
+  font-family: 'macondo'; }
+
+.trailers-title {
   color: #151D3B; }
 
 .trailers-video {
@@ -73,15 +79,9 @@ footer {
 
 /* trailers.html - Estilos*/
 .titulo-trailers-uno {
-  display: flex;
-  justify-content: center;
-  font-family: 'macondo';
   color: #ED1D24; }
 
 .titulo-trailers-dos {
-  display: flex;
-  justify-content: center;
-  font-family: 'macondo';
   color: #0476f2; }
 
 /* trailers.html - Estilos*/
@@ -108,16 +108,15 @@ footer {
   #shop .img-shop3 {
     width: 50%; }
 
-.comunidad-title {
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
-  font-family: 'macondo';
+  font-family: 'macondo'; }
+
+.comunidad-title {
   color: #C70A80; }
 
 .ubicacion-title {
-  display: flex;
-  justify-content: center;
-  font-family: 'macondo';
   color: #ED1D24; }
 
 .section-comunidad {
@@ -132,14 +131,6 @@ footer {
   .section-comunidad .comunidad-tres {
     width: 30%; }
 
-@media (min-width: 500px) {
-  .news-links,
-  .trailers-section,
-  .shop-section,
-  .comunidad-ubicacion {
-    display: flex;
-    flex-direction: row; } }
-
 a:visited {
   color: #ED1D24;
   font-weight: bold; }
@@ -148,3 +139,16 @@ body {
   background-color: #f59622;
   background-attachment: fixed;
   background-size: cover; }
+
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, .comunidad-title, .ubicacion-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo'; }
+
+@media (min-width: 500px) {
+  .news-links,
+  .trailers-section,
+  .shop-section,
+  .comunidad-ubicacion {
+    display: flex;
+    flex-direction: row; } }

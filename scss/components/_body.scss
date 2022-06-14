@@ -1,0 +1,10 @@
+a:visited {
+    color: nth($colores, 6);
+    font-weight: bold
+  }
+
+body {
+    background-color: nth($colores, 1);
+    background-attachment: fixed;
+    background-size: cover;
+}

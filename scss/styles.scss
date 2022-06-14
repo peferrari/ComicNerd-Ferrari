@@ -4,6 +4,7 @@
 @import 'components/trailers';
 @import 'components/shop';
 @import 'components/comunidad';
+@import 'components/body';
 @import 'base/listas';
 @import 'base/extends';
 @import 'base/mixins';
@@ -27,13 +28,3 @@ $medida-fuente: 10px;
     }
 }
 
-a:visited {
-    color: nth($colores, 6);
-    font-weight: bold
-  }
-
-body {
-    background-color: nth($colores, 1);
-    background-attachment: fixed;
-    background-size: cover;
-}
