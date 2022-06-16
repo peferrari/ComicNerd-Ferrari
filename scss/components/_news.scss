@@ -6,7 +6,7 @@ $medida-fuente: 10px;
 
 .news-title {
     @extend %titulos;
-    color: nth($colores, 5);
+    color: nth($colores, 7);
 }
 
 .news-links {

@@ -1,6 +1,10 @@
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/mixins';
+
 a:visited {
-    color: nth($colores, 6);
-    font-weight: bold
+    color: nth($colores, 8);
+    font-weight: bold;
   }
 
 body {

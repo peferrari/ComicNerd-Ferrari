@@ -48,7 +48,7 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
   font-family: 'macondo'; }
 
 .news-title {
-  color: #C70A80; }
+  color: #0476f2; }
 
 .news-links {
   margin: 0%;
@@ -133,8 +133,13 @@ footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titul
   .section-comunidad .comunidad-tres {
     width: 30%; }
 
+footer .footer-title, .news-title, .trailers-title, .titulo-trailers-uno, .titulo-trailers-dos, #shop .shop-title, .comunidad-title, .ubicacion-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'macondo'; }
+
 a:visited {
-  color: #ED1D24;
+  color: #F1DDBF;
   font-weight: bold; }
 
 body {
