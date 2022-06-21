@@ -9,6 +9,11 @@ $medida-fuente: 10px;
     color: nth($colores, 7);
 }
 
+.title-news {
+    @extend %titulos-dos;
+    color: nth($colores, 8);
+}
+
 .news-links {
     margin: 0%;
     display: flex;
@@ -32,4 +37,8 @@ $medida-fuente: 10px;
         transition: all 1.5s;
 
     }
+}
+
+.paragraph-news {
+    @extend %parrafos;
 }

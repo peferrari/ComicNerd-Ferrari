@@ -6,7 +6,7 @@ $medida-fuente: 10px;
 
 .comunidad-title {
     @extend %titulos;
-    color: nth($colores, 5);
+    color: nth($colores, 8);
 }
 
 .ubicacion-title {
@@ -16,6 +16,7 @@ $medida-fuente: 10px;
 
 .section-comunidad {
     align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     .accordion-body {
         display: flex;
         align-items: center;
@@ -29,4 +30,8 @@ $medida-fuente: 10px;
     .comunidad-tres{
         @include fotos(30%);
     }
+}
+
+.contact-form {
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }

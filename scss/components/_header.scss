@@ -3,18 +3,17 @@
 $medida-fuente: 10px;
 
 .navbar {
-    border-radius: 20px;
-    font-family: 'macondo';
+    font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: ($medida-fuente * 3);
-
+    background-color: nth($colores, 7);
 
     .nav-item:hover {
-        background-color: nth($colores, 8);
+        background-color: nth($colores, 4);
         border-radius: 10%;
 
         a {
-            font-family: 'macondo';
-            color: nth($colores, 4);
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: nth($colores, 3);
         }
     }
 }
