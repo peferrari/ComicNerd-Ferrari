@@ -19,6 +19,7 @@ $medida-fuente: 10px;
     .card {
         display: flex;
         align-items: center;
+        @extend %titulos-dos;
     }
     
     .img-shop1 {

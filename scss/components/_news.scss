@@ -19,7 +19,7 @@ $medida-fuente: 10px;
     display: flex;
     text-align: center;
     justify-content: space-between;
-
+   
     .img-news1 {
         @include fotos(30%);
     }
