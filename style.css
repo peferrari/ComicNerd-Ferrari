@@ -12,6 +12,7 @@
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -19,11 +20,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 footer {
@@ -57,6 +60,7 @@ footer {
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -64,11 +68,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .news-title {
@@ -95,6 +101,7 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -102,11 +109,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .trailers-title {
@@ -127,6 +136,7 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -134,11 +144,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 #shop {
@@ -164,6 +176,7 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -171,11 +184,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .comunidad-title {
@@ -203,6 +218,7 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -210,11 +226,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 a:visited {
@@ -227,11 +245,13 @@ body {
   background-size: cover; }
 
 .button-uno {
-  font-family: 'Kdam Thmor Pro', sans-serif; }
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin: 1.5%; }
 
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
+  margin: 1%;
   -webkit-text-stroke: 1px black;
   font-family: 'fascinate', cursive;
   text-transform: uppercase; }
@@ -239,11 +259,13 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .title-news, .titulo-trailers-uno, .titulo-trailers-dos, #shop .card {
   display: flex;
   justify-content: center;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 .paragraph-news {
   display: flex;
   justify-content: space-evenly;
+  margin: 1%;
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 @media (min-width: 500px) {

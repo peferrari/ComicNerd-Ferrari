@@ -1,6 +1,7 @@
 %titulos {
     display: flex;
     justify-content: center;
+    margin: 1%;
     -webkit-text-stroke: 1px black;
     font-family: 'fascinate', cursive;
     text-transform: uppercase;
@@ -9,11 +10,13 @@
 %titulos-dos {
     display: flex;
     justify-content: center;
+    margin: 1%;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 %parrafos {
     display: flex;
     justify-content: space-evenly;
+    margin: 1%;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
