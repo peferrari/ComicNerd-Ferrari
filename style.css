@@ -134,7 +134,6 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
 .titulo-trailers-dos {
   color: #4fbfeb; }
 
-/* trailers.html - Estilos*/
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
   justify-content: center;
@@ -215,7 +214,15 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
     width: 30%; }
 
 .contact-form {
-  font-family: 'Kdam Thmor Pro', sans-serif; }
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin: 1%; }
+
+.contacto-mapa {
+  margin: 1%; }
+
+@media (max-width: 900px) {
+  .comunidad-ubicacion {
+    display: flex; } }
 
 footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunidad-title, .ubicacion-title {
   display: flex;
@@ -271,9 +278,6 @@ footer .footer-title, .news-title, .trailers-title, #shop .shop-title, .comunida
   font-family: 'Kdam Thmor Pro', sans-serif; }
 
 @media (min-width: 500px) {
-  .news-links,
-  .trailers-section,
-  .shop-section,
-  .comunidad-ubicacion {
+  .shop-section {
     display: flex;
     flex-direction: row; } }

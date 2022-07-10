@@ -19,10 +19,7 @@ $color-button-uno: #F1DDBF;
 $medida-fuente: 10px;
 
 @media (min-width: 500px){
-    .news-links,
-    .trailers-section,
-    .shop-section,
-    .comunidad-ubicacion{
+    .shop-section{
        display: flex;
        flex-direction: row;
     }

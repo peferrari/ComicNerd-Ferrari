@@ -34,4 +34,15 @@ $medida-fuente: 10px;
 
 .contact-form {
     font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 1%;
+}
+
+.contacto-mapa {
+    margin: 1%;
+}
+
+@media (max-width: 900px){
+    .comunidad-ubicacion {
+        display: flex;
+    }
 }
